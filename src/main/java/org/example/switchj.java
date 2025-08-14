@@ -26,5 +26,10 @@ public class switchj {
                 System.out.println("Sunday");
                 break;
         }
+
+        String pavan ="Pavan";
+        String krishna = "Krishna";
+
+
     }
 }

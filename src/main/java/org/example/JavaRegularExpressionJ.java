@@ -8,7 +8,7 @@ import static java.util.regex.Pattern.CASE_INSENSITIVE;
 
 public class JavaRegularExpressionJ {
     public static void main(String[] args) {
-        Pattern pattern = Pattern.compile("AARAV VEMULAPALLI", CASE_INSENSITIVE);
+        Pattern pattern = Pattern.compile("[AARAV VEMULAPALLI]", CASE_INSENSITIVE);
         Scanner aarav = new Scanner(System.in);
         System.out.println("Who are you here for first name and last name ");
          String studentName= aarav.nextLine();
